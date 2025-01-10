@@ -203,3 +203,44 @@ nav > ul > li {
     line-height: 24px;
     text-align: left;
 }
+
+/* Testimonial Section */
+.testimonial {
+    margin-bottom: 80px;
+    padding: 48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px; 
+    background: rgb(255, 255, 255);
+}
+
+.testimonial .testimonial-content {
+    background: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    
+}
+
+.testimonial .testimonial-description {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 27px;
+}
+.testimonial .testimonial-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+}
+.testimonial .testimonial-subtitle {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 10px;
+}
