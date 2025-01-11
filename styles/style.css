@@ -366,11 +366,30 @@ nav > ul > li {
     text-align: left;
 }
 
-.donate button {
+.donate .primary-btn {
     margin-top: 32px;
 }
 
-.donate .donate-custom-price input[type]
+.donate-custom-price {
+    width: 1032px;
+    margin: 0 auto;
+    
+}
+
+.donate .donate-custom-price input[type="text"]{
+    font-size: 20px;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    border: none;
+    height: 64px;
+    width: 132px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+}
 
 
 
