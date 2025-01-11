@@ -391,6 +391,14 @@ nav > ul > li {
     background: rgb(255, 255, 255);
 }
 
+/* SUBSCRIBE SECTION */
+.subscribe {
+    text-align: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px;
+    margin-bottom: 80px;
+}
 
 
 
