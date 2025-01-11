@@ -85,6 +85,10 @@ nav > ul > li {
     color: #fff;
 }
 
+input:focus {
+    outline: none;
+  }
+
 
 /* BANNER SECTION */
 .banner {
@@ -398,6 +402,60 @@ nav > ul > li {
     background: rgb(198, 228, 214);
     padding: 80px 100px;
     margin-bottom: 80px;
+}
+.subscribe .subscribe-title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 16px;
+   
+}
+.subscribe .subscribe-subtitle {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.subscribe .form-note {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 25px;
+}
+/* input[type="text"] */
+.subscribe input[type="email"] {
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    width: 600px;
+    height: 55px;
+    border: none;
+    padding: 0 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.subscribe input[type="submit"] {
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    width: 150px;
+    height: 55px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    border: none;
+    margin-left: -4px;
+    cursor: pointer;
 }
 
 
